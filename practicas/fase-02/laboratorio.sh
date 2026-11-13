@@ -128,7 +128,8 @@ cat mensajes.md
 printf 'Cambio temporal\n' > demostracion.txt
 git add demostracion.txt
 git commit -m 'docs: añade una nota temporal'
-git revert --no-edit HEAD
+git revert --no-commit HEAD
+git commit -m 'revert: retira la nota temporal'
 test ! -e demostracion.txt
 printf '\nNota aún en revisión.\n' >> README.md
 git stash push -m 'nota en revision'
@@ -136,9 +137,11 @@ git stash list -1
 git stash pop
 git restore -- README.md
 git reflog -6 --format='%h %gs'
-recuperado=$(git rev-parse 'HEAD@{1}')
+recuperado=$(git reflog -1 --format=%H --grep-reflog='commit: docs: añade una nota temporal')
+[[ -n "$recuperado" && "$recuperado" != "$(git rev-parse HEAD)" ]]
 git branch docs/recuperacion-de-prueba "$recuperado"
-git show --no-patch --oneline docs/recuperacion-de-prueba
+git log -1 --oneline docs/recuperacion-de-prueba
+git show docs/recuperacion-de-prueba:demostracion.txt
 git log -6 --graph --oneline
 git status --short --branch
 PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v
