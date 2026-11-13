@@ -12,7 +12,7 @@ La cuenta existente `alonso3107` se utilizó para observar el repositorio y su m
 
 ## Reto 2.1 Biografía
 
-Me interesa el soporte técnico y la operación de software. Documento incidencias, reproduzco errores y verifico soluciones con Git, GitHub y Python. En Andina Market 360 practico el análisis de datos y la atención de fallos con pruebas. Busco servir.
+Me interesa el soporte técnico y la operación de software. Investigo incidencias y compruebo soluciones con Git, GitHub y Python. En Andina Market 360 preparo pruebas y documento cómo reproducir los fallos para que otras personas puedan verificarlos.
 
 Verificación local: 250 caracteres, incluidos espacios y puntuación.
 

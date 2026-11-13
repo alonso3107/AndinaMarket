@@ -30,8 +30,8 @@ La [PR 46943](https://github.com/github/docs/pull/46943) describe una sincroniza
 | Commit | Autor visible | Resultado observable |
 | --- | --- | --- |
 | [d59b263](https://github.com/github/docs/commit/d59b2631959db46d71ca5f7748ec04311c6d0870) | docs-bot | Integra la PR de sincronización 46943 |
-| [dd97ed7](https://github.com/github/docs/commit/dd97ed77acc7ea97ed4f5a4249035da87c9ec42e) | Según el enlace público del commit | Ajusta finales de línea de Markdown en `.gitattributes` |
-| [c9410e1](https://github.com/github/docs/commit/c9410e126639e71d8501d197a38a1d9712877307) | Según el enlace público del commit | Actualiza la versión de Node.js del entorno en `.devcontainer` |
+| [dd97ed7](https://github.com/github/docs/commit/dd97ed77acc7ea97ed4f5a4249035da87c9ec42e) | heiskr | Ajusta finales de línea de Markdown en `.gitattributes` |
+| [c9410e1](https://github.com/github/docs/commit/c9410e126639e71d8501d197a38a1d9712877307) | heiskr | Actualiza la versión de Node.js del entorno en `.devcontainer` |
 
 ## Reto 3.1 Mapa de navegación
 
