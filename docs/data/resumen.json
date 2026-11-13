@@ -1,0 +1,18 @@
+{
+  "operaciones": 12,
+  "total": "1845.00",
+  "ventas_por_sede": {
+    "Arequipa": "476.00",
+    "Ica": "555.00",
+    "Lima": "814.00"
+  },
+  "ventas_por_mes": {
+    "2026-09": "735.00",
+    "2026-10": "1110.00"
+  },
+  "unidades_por_producto": {
+    "Aceite": 30,
+    "Arroz": 35,
+    "Café": 27
+  }
+}

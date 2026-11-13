@@ -1,0 +1,13 @@
+id,fecha,sede,producto,cantidad,precio_unitario
+1,2026-09-03,Lima,Café,6,24.00
+2,2026-09-10,Lima,Arroz,10,18.00
+3,2026-10-07,Lima,Aceite,10,22.00
+4,2026-10-14,Lima,Café,10,27.00
+5,2026-09-04,Ica,Arroz,7,15.00
+6,2026-09-11,Ica,Café,5,22.00
+7,2026-10-08,Ica,Aceite,8,20.00
+8,2026-10-15,Ica,Arroz,10,18.00
+9,2026-09-05,Arequipa,Aceite,4,21.00
+10,2026-09-12,Arequipa,Arroz,8,14.00
+11,2026-10-09,Arequipa,Café,6,20.00
+12,2026-10-16,Arequipa,Aceite,8,20.00
