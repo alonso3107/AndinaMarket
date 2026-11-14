@@ -16,9 +16,11 @@ class PruebasResumen(unittest.TestCase):
             {"Arequipa": "476.00", "Ica": "555.00", "Lima": "814.00"},
         )
 
+    def test_conteo_de_ventas(self):
+        self.assertEqual(resumir_ventas()["operaciones"], 12)
+
     def test_preguntas_del_caso(self):
         resumen = resumir_ventas()
-        self.assertEqual(resumen["operaciones"], 12)
         self.assertEqual(resumen["unidades_por_producto"], {"Aceite": 30, "Arroz": 35, "Café": 27})
         self.assertEqual(resumen["ventas_por_mes"], {"2026-09": "735.00", "2026-10": "1110.00"})
 
