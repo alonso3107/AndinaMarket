@@ -1,0 +1,13 @@
+name: Integración continua
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  comprobaciones:
+    uses: ./.github/workflows/verificar-ventas.yml
