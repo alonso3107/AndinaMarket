@@ -26,7 +26,7 @@ Andina Market 360 es un proyecto académico que convierte un archivo de ventas f
 
 La muestra reproduce los totales de referencia del cuaderno. La comprobación incluye cinco pruebas unitarias y una ejecución en GitHub Actions con dos versiones de Python. Git permite revisar la evolución del proyecto, comparar cambios y recuperar una revisión anterior. El repositorio contiene documentación de arranque, plantillas para informar y revisar cambios, y un procedimiento de respaldo comprobado en una copia local.
 
-Durante la demostración se ejecuta el cálculo, se repiten las pruebas, se compara el JSON generado con el archivo versionado y se navega entre las dos páginas del sitio. La evidencia conserva los resultados observados. El caso usa únicamente datos ficticios y se propone como muestra de trabajo para soporte técnico, mantenimiento de código y revisión de cambios. Revisión final del.
+Durante la demostración se ejecuta el cálculo, se repiten las pruebas, se compara el JSON generado con el archivo versionado y se navega entre las dos páginas del sitio. La evidencia conserva los resultados observados. El caso usa únicamente datos ficticios y se propone como muestra de trabajo para soporte técnico, mantenimiento de código y revisión de cambios en equipos pequeños.
 
 ## Ensayo de tres minutos
 
