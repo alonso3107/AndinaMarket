@@ -47,7 +47,7 @@ Para revisar el dashboard conviene responder estas diez preguntas.
 
 ## Capítulo 16 Contribución externa
 
-[GitHub Docs](https://github.com/github/docs/blob/main/CONTRIBUTING.md) tiene una guía pública de contribución y limita qué archivos acepta de colaboradores externos. Una propuesta sería aportar un ejemplo de cómo registrar en una captura el resultado de una práctica de Git sin divulgar datos personales. Antes de enviar el cambio, se debe comprobar si la guía ya cubre el punto y abrir la conversación por el canal indicado.
+[GitHub Docs](https://github.com/github/docs/blob/main/.github/CONTRIBUTING.md) tiene una guía pública de contribución y limita qué archivos acepta de colaboradores externos. Una propuesta sería aportar un ejemplo de cómo registrar en una captura el resultado de una práctica de Git sin divulgar datos personales. Antes de enviar el cambio, se debe comprobar si la guía ya cubre el punto y abrir la conversación por el canal indicado.
 
 ```text
 1. Leer la guía → 2. Crear fork → 3. Crear rama → 4. Confirmar el cambio → 5. Preparar el PR
