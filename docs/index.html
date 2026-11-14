@@ -4,14 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ventas de Andina Market 360</title>
+  <link rel="stylesheet" href="estilos.css">
   <script src="resumen.js" defer></script>
 </head>
 <body>
+  <nav aria-label="Navegación del caso">
+    <a href="index.html" aria-current="page">Ventas por sede</a>
+    <a href="productos.html">Productos</a>
+  </nav>
   <main>
     <h1>Ventas de Andina Market 360</h1>
     <p>Datos ficticios de las sedes de Lima, Ica y Arequipa.</p>
     <p id="estado" role="status">Cargando resumen de ventas…</p>
-    <table hidden id="resumen">
+    <table hidden id="resumen" data-grupo="ventas_por_sede">
       <caption>Ventas por sede en soles</caption>
       <thead><tr><th scope="col">Sede</th><th scope="col">Ventas</th></tr></thead>
       <tbody></tbody>
